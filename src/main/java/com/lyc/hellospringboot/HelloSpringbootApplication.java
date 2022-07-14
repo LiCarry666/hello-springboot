@@ -17,12 +17,23 @@ public class HelloSpringbootApplication {
         System.out.println("springboot runnable");
         System.out.println("springboot successful");
         System.out.println("springboot successful");
+        /**
+         *
+         */
     }
 
+   /**
+    * @description
+    * @author lili
+    * @date 2022/7/14 23:43
+    * @param name
+    * @return java.lang.String
+    */
     @GetMapping("/hello")
     @ResponseBody
     public String hello(String name){
         return "hello:"+name;
     }
+
 
 }
