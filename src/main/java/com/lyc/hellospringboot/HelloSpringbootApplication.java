@@ -15,7 +15,7 @@ public class HelloSpringbootApplication {
         SpringApplication.run(HelloSpringbootApplication.class, args);
         System.out.println("springboot running");
         System.out.println("springboot runnable");
-        System.out.println("springboot success");
+        System.out.println("springboot successful");
     }
 
     @GetMapping("/hello")
